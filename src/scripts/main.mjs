@@ -1,7 +1,28 @@
-const legoCreation = {
-    id: 1,
-    creator: "Per Sun",
-    color: "Black",
-    shape: "Animal",
-    creation: "Black Cow"
-}
+
+
+
+document.querySelector("#legoFormSave").addEventListener("click", event => {
+    const creator = document.querySelector("#creatorNameInput").value
+    const color = document.querySelector("#workColorInput").value
+    const shape = document.querySelector("#workShapeInput").value
+    const creation = document.querySelector("#workNameInput").value
+
+
+    const legoToSave = {
+        creator: creator,
+        color: color,
+        shape: shape,
+        creation: creation
+    }
+
+    fetch("http://localhost:8088/creations", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(legoToSave)
+    })
+
+
+})
+
