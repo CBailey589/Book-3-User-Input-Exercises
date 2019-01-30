@@ -1,13 +1,51 @@
 {
-    "creations": [],
-    "colors": [
-        {
-            "Red": 1,
-            "Green": 2,
-            "Yellow": 3,
-            "Blue": 4,
-            "Orange": 5,
-            "Black": 6
-        }
-    ]
+  "creations": [
+    {
+      "creator": "Connor",
+      "color": "4",
+      "shape": "Dog",
+      "creation": "Blue Dog",
+      "id": 1
+    },
+    {
+      "creator": "Connor",
+      "color": "3",
+      "shape": "Bird",
+      "creation": "Yellow Bird",
+      "id": 2
+    },
+    {
+      "creator": "Connor",
+      "color": 1,
+      "shape": "dog",
+      "creation": "red dog",
+      "id": 3
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "name": "Red"
+    },
+    {
+      "id": 2,
+      "name": "Green"
+    },
+    {
+      "id": 3,
+      "name": "Yellow"
+    },
+    {
+      "id": 4,
+      "name": "Blue"
+    },
+    {
+      "id": 5,
+      "name": "Orange"
+    },
+    {
+      "id": 6,
+      "name": "Black"
+    }
+  ]
 }
