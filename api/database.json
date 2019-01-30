@@ -2,24 +2,10 @@
   "creations": [
     {
       "creator": "Connor",
-      "color": "4",
-      "shape": "Dog",
-      "creation": "Blue Dog",
-      "id": 1
-    },
-    {
-      "creator": "Connor",
-      "color": "3",
-      "shape": "Bird",
-      "creation": "Yellow Bird",
-      "id": 2
-    },
-    {
-      "creator": "Connor",
       "color": 1,
-      "shape": "dog",
-      "creation": "red dog",
-      "id": 3
+      "shape": "Duck",
+      "creation": "Red Duck",
+      "id": 1
     }
   ],
   "colors": [
